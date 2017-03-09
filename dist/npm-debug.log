@@ -1,0 +1,577 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\Teslim\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.9.6
+3 info using node@v5.6.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData bootstrap
+20 silly mapToRegistry name bootstrap
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'bootstrap',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   name: 'bootstrap',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+25 silly fetchNamedPackageData font-awesome
+26 silly mapToRegistry name font-awesome
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'font-awesome',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   name: 'font-awesome',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/font-awesome
+31 silly fetchNamedPackageData understrap
+32 silly mapToRegistry name understrap
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'understrap',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   name: 'understrap',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/understrap
+37 silly fetchNamedPackageData owl.carousel
+38 silly mapToRegistry name owl.carousel
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'owl.carousel',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   name: 'owl.carousel',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/owl.carousel
+43 silly fetchNamedPackageData undescores-for-npm
+44 silly mapToRegistry name undescores-for-npm
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'undescores-for-npm',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   name: 'undescores-for-npm',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/undescores-for-npm
+49 verbose request uri https://registry.npmjs.org/bootstrap
+50 verbose request no auth needed
+51 info attempt registry request try #1 at 4:54:17 PM
+52 verbose request id 8b2b0722a9aa440b
+53 http request GET https://registry.npmjs.org/bootstrap
+54 verbose request uri https://registry.npmjs.org/font-awesome
+55 verbose request no auth needed
+56 info attempt registry request try #1 at 4:54:17 PM
+57 http request GET https://registry.npmjs.org/font-awesome
+58 verbose request uri https://registry.npmjs.org/understrap
+59 verbose request no auth needed
+60 info attempt registry request try #1 at 4:54:17 PM
+61 http request GET https://registry.npmjs.org/understrap
+62 verbose request uri https://registry.npmjs.org/owl.carousel
+63 verbose request no auth needed
+64 info attempt registry request try #1 at 4:54:17 PM
+65 http request GET https://registry.npmjs.org/owl.carousel
+66 verbose request uri https://registry.npmjs.org/undescores-for-npm
+67 verbose request no auth needed
+68 info attempt registry request try #1 at 4:54:17 PM
+69 http request GET https://registry.npmjs.org/undescores-for-npm
+70 http 200 https://registry.npmjs.org/font-awesome
+71 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+71 verbose headers   etag: '"AOX45S3ULWABMVXX05Z90Q2WF"',
+71 verbose headers   'content-type': 'application/json',
+71 verbose headers   'content-encoding': 'gzip',
+71 verbose headers   'cache-control': 'max-age=300',
+71 verbose headers   'content-length': '4648',
+71 verbose headers   'accept-ranges': 'bytes',
+71 verbose headers   date: 'Mon, 10 Oct 2016 15:54:18 GMT',
+71 verbose headers   via: '1.1 varnish',
+71 verbose headers   age: '120',
+71 verbose headers   connection: 'keep-alive',
+71 verbose headers   'x-served-by': 'cache-lcy1131-LCY',
+71 verbose headers   'x-cache': 'HIT',
+71 verbose headers   'x-cache-hits': '2',
+71 verbose headers   'x-timer': 'S1476114858.750021,VS0,VE0',
+71 verbose headers   vary: 'Accept-Encoding' }
+72 silly get cb [ 200,
+72 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+72 silly get     etag: '"AOX45S3ULWABMVXX05Z90Q2WF"',
+72 silly get     'content-type': 'application/json',
+72 silly get     'content-encoding': 'gzip',
+72 silly get     'cache-control': 'max-age=300',
+72 silly get     'content-length': '4648',
+72 silly get     'accept-ranges': 'bytes',
+72 silly get     date: 'Mon, 10 Oct 2016 15:54:18 GMT',
+72 silly get     via: '1.1 varnish',
+72 silly get     age: '120',
+72 silly get     connection: 'keep-alive',
+72 silly get     'x-served-by': 'cache-lcy1131-LCY',
+72 silly get     'x-cache': 'HIT',
+72 silly get     'x-cache-hits': '2',
+72 silly get     'x-timer': 'S1476114858.750021,VS0,VE0',
+72 silly get     vary: 'Accept-Encoding' } ]
+73 verbose get saving font-awesome to C:\Users\Teslim\AppData\Roaming\npm-cache\registry.npmjs.org\font-awesome\.cache.json
+74 verbose correctMkdir C:\Users\Teslim\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+75 http 200 https://registry.npmjs.org/owl.carousel
+76 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+76 verbose headers   etag: '"98GS98F3HDA7Z7RJD168VJ87J"',
+76 verbose headers   'content-type': 'application/json',
+76 verbose headers   'content-encoding': 'gzip',
+76 verbose headers   'cache-control': 'max-age=300',
+76 verbose headers   'content-length': '3263',
+76 verbose headers   'accept-ranges': 'bytes',
+76 verbose headers   date: 'Mon, 10 Oct 2016 15:54:18 GMT',
+76 verbose headers   via: '1.1 varnish',
+76 verbose headers   age: '0',
+76 verbose headers   connection: 'keep-alive',
+76 verbose headers   'x-served-by': 'cache-lcy1128-LCY',
+76 verbose headers   'x-cache': 'HIT',
+76 verbose headers   'x-cache-hits': '1',
+76 verbose headers   'x-timer': 'S1476114858.665926,VS0,VE112',
+76 verbose headers   vary: 'Accept-Encoding' }
+77 silly get cb [ 200,
+77 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+77 silly get     etag: '"98GS98F3HDA7Z7RJD168VJ87J"',
+77 silly get     'content-type': 'application/json',
+77 silly get     'content-encoding': 'gzip',
+77 silly get     'cache-control': 'max-age=300',
+77 silly get     'content-length': '3263',
+77 silly get     'accept-ranges': 'bytes',
+77 silly get     date: 'Mon, 10 Oct 2016 15:54:18 GMT',
+77 silly get     via: '1.1 varnish',
+77 silly get     age: '0',
+77 silly get     connection: 'keep-alive',
+77 silly get     'x-served-by': 'cache-lcy1128-LCY',
+77 silly get     'x-cache': 'HIT',
+77 silly get     'x-cache-hits': '1',
+77 silly get     'x-timer': 'S1476114858.665926,VS0,VE112',
+77 silly get     vary: 'Accept-Encoding' } ]
+78 verbose get saving owl.carousel to C:\Users\Teslim\AppData\Roaming\npm-cache\registry.npmjs.org\owl.carousel\.cache.json
+79 verbose correctMkdir C:\Users\Teslim\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+80 silly resolveWithNewModule font-awesome@4.6.3 checking installable status
+81 silly cache add args [ 'font-awesome@^4.6.3', null ]
+82 verbose cache add spec font-awesome@^4.6.3
+83 silly cache add parsed spec Result {
+83 silly cache add   raw: 'font-awesome@^4.6.3',
+83 silly cache add   scope: null,
+83 silly cache add   name: 'font-awesome',
+83 silly cache add   rawSpec: '^4.6.3',
+83 silly cache add   spec: '>=4.6.3 <5.0.0',
+83 silly cache add   type: 'range' }
+84 silly addNamed font-awesome@>=4.6.3 <5.0.0
+85 verbose addNamed ">=4.6.3 <5.0.0" is a valid semver range for font-awesome
+86 silly addNameRange { name: 'font-awesome', range: '>=4.6.3 <5.0.0', hasData: false }
+87 silly mapToRegistry name font-awesome
+88 silly mapToRegistry using default registry
+89 silly mapToRegistry registry https://registry.npmjs.org/
+90 silly mapToRegistry data Result {
+90 silly mapToRegistry   raw: 'font-awesome',
+90 silly mapToRegistry   scope: null,
+90 silly mapToRegistry   name: 'font-awesome',
+90 silly mapToRegistry   rawSpec: '',
+90 silly mapToRegistry   spec: 'latest',
+90 silly mapToRegistry   type: 'tag' }
+91 silly mapToRegistry uri https://registry.npmjs.org/font-awesome
+92 verbose addNameRange registry:https://registry.npmjs.org/font-awesome not in flight; fetching
+93 http 200 https://registry.npmjs.org/understrap
+94 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+94 verbose headers   etag: '"3RMYMOK17K3L6S75MD6BRB76Z"',
+94 verbose headers   'content-type': 'application/json',
+94 verbose headers   'content-encoding': 'gzip',
+94 verbose headers   'cache-control': 'max-age=300',
+94 verbose headers   'content-length': '5369',
+94 verbose headers   'accept-ranges': 'bytes',
+94 verbose headers   date: 'Mon, 10 Oct 2016 15:54:18 GMT',
+94 verbose headers   via: '1.1 varnish',
+94 verbose headers   age: '0',
+94 verbose headers   connection: 'keep-alive',
+94 verbose headers   'x-served-by': 'cache-lcy1128-LCY',
+94 verbose headers   'x-cache': 'MISS',
+94 verbose headers   'x-cache-hits': '0',
+94 verbose headers   'x-timer': 'S1476114858.695915,VS0,VE97',
+94 verbose headers   vary: 'Accept-Encoding' }
+95 silly get cb [ 200,
+95 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+95 silly get     etag: '"3RMYMOK17K3L6S75MD6BRB76Z"',
+95 silly get     'content-type': 'application/json',
+95 silly get     'content-encoding': 'gzip',
+95 silly get     'cache-control': 'max-age=300',
+95 silly get     'content-length': '5369',
+95 silly get     'accept-ranges': 'bytes',
+95 silly get     date: 'Mon, 10 Oct 2016 15:54:18 GMT',
+95 silly get     via: '1.1 varnish',
+95 silly get     age: '0',
+95 silly get     connection: 'keep-alive',
+95 silly get     'x-served-by': 'cache-lcy1128-LCY',
+95 silly get     'x-cache': 'MISS',
+95 silly get     'x-cache-hits': '0',
+95 silly get     'x-timer': 'S1476114858.695915,VS0,VE97',
+95 silly get     vary: 'Accept-Encoding' } ]
+96 verbose get saving understrap to C:\Users\Teslim\AppData\Roaming\npm-cache\registry.npmjs.org\understrap\.cache.json
+97 verbose correctMkdir C:\Users\Teslim\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+98 verbose get https://registry.npmjs.org/font-awesome not expired, no request
+99 silly addNameRange number 2 { name: 'font-awesome', range: '>=4.6.3 <5.0.0', hasData: true }
+100 silly addNameRange versions [ 'font-awesome',
+100 silly addNameRange   [ '3.2.1',
+100 silly addNameRange     '4.0.3',
+100 silly addNameRange     '4.1.0',
+100 silly addNameRange     '4.2.0',
+100 silly addNameRange     '4.3.0',
+100 silly addNameRange     '4.4.0',
+100 silly addNameRange     '4.5.0',
+100 silly addNameRange     '4.6.1',
+100 silly addNameRange     '4.6.3' ] ]
+101 silly addNamed font-awesome@4.6.3
+102 verbose addNamed "4.6.3" is a plain semver version for font-awesome
+103 silly resolveWithNewModule owl.carousel@2.1.4 checking installable status
+104 silly cache add args [ 'owl.carousel@^2.1.4', null ]
+105 verbose cache add spec owl.carousel@^2.1.4
+106 silly cache add parsed spec Result {
+106 silly cache add   raw: 'owl.carousel@^2.1.4',
+106 silly cache add   scope: null,
+106 silly cache add   name: 'owl.carousel',
+106 silly cache add   rawSpec: '^2.1.4',
+106 silly cache add   spec: '>=2.1.4 <3.0.0',
+106 silly cache add   type: 'range' }
+107 silly addNamed owl.carousel@>=2.1.4 <3.0.0
+108 verbose addNamed ">=2.1.4 <3.0.0" is a valid semver range for owl.carousel
+109 silly addNameRange { name: 'owl.carousel', range: '>=2.1.4 <3.0.0', hasData: false }
+110 silly mapToRegistry name owl.carousel
+111 silly mapToRegistry using default registry
+112 silly mapToRegistry registry https://registry.npmjs.org/
+113 silly mapToRegistry data Result {
+113 silly mapToRegistry   raw: 'owl.carousel',
+113 silly mapToRegistry   scope: null,
+113 silly mapToRegistry   name: 'owl.carousel',
+113 silly mapToRegistry   rawSpec: '',
+113 silly mapToRegistry   spec: 'latest',
+113 silly mapToRegistry   type: 'tag' }
+114 silly mapToRegistry uri https://registry.npmjs.org/owl.carousel
+115 verbose addNameRange registry:https://registry.npmjs.org/owl.carousel not in flight; fetching
+116 verbose get https://registry.npmjs.org/owl.carousel not expired, no request
+117 silly addNameRange number 2 { name: 'owl.carousel', range: '>=2.1.4 <3.0.0', hasData: true }
+118 silly addNameRange versions [ 'owl.carousel', [ '0.0.1', '2.1.1', '2.1.4' ] ]
+119 silly addNamed owl.carousel@2.1.4
+120 verbose addNamed "2.1.4" is a plain semver version for owl.carousel
+121 silly mapToRegistry name font-awesome
+122 silly mapToRegistry using default registry
+123 silly mapToRegistry registry https://registry.npmjs.org/
+124 silly mapToRegistry data Result {
+124 silly mapToRegistry   raw: 'font-awesome',
+124 silly mapToRegistry   scope: null,
+124 silly mapToRegistry   name: 'font-awesome',
+124 silly mapToRegistry   rawSpec: '',
+124 silly mapToRegistry   spec: 'latest',
+124 silly mapToRegistry   type: 'tag' }
+125 silly mapToRegistry uri https://registry.npmjs.org/font-awesome
+126 verbose addRemoteTarball https://registry.npmjs.org/font-awesome/-/font-awesome-4.6.3.tgz not in flight; adding
+127 verbose addRemoteTarball [ 'https://registry.npmjs.org/font-awesome/-/font-awesome-4.6.3.tgz',
+127 verbose addRemoteTarball   '86933651540ee00874c664017f50f2172f6531a2' ]
+128 silly mapToRegistry name owl.carousel
+129 silly mapToRegistry using default registry
+130 silly mapToRegistry registry https://registry.npmjs.org/
+131 silly mapToRegistry data Result {
+131 silly mapToRegistry   raw: 'owl.carousel',
+131 silly mapToRegistry   scope: null,
+131 silly mapToRegistry   name: 'owl.carousel',
+131 silly mapToRegistry   rawSpec: '',
+131 silly mapToRegistry   spec: 'latest',
+131 silly mapToRegistry   type: 'tag' }
+132 silly mapToRegistry uri https://registry.npmjs.org/owl.carousel
+133 verbose addRemoteTarball https://registry.npmjs.org/owl.carousel/-/owl.carousel-2.1.4.tgz not in flight; adding
+134 verbose addRemoteTarball [ 'https://registry.npmjs.org/owl.carousel/-/owl.carousel-2.1.4.tgz',
+134 verbose addRemoteTarball   'ff37bcb60eb354a397a23002f058e209c83a9717' ]
+135 silly fetchPackageMetaData Error: No compatible version found: understrap@^0.4.8
+135 silly fetchPackageMetaData Valid install targets:
+135 silly fetchPackageMetaData 0.4.7
+135 silly fetchPackageMetaData
+135 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (C:\Users\Teslim\AppData\Roaming\npm\node_modules\npm\lib\fetch-package-metadata.js:170:16)
+135 silly fetchPackageMetaData     at C:\Users\Teslim\AppData\Roaming\npm\node_modules\npm\node_modules\iferr\index.js:13:50
+135 silly fetchPackageMetaData     at C:\Users\Teslim\AppData\Roaming\npm\node_modules\npm\lib\utils\pulse-till-done.js:19:8
+135 silly fetchPackageMetaData     at saved (C:\Users\Teslim\AppData\Roaming\npm\node_modules\npm\lib\cache\caching-client.js:174:7)
+135 silly fetchPackageMetaData     at C:\Users\Teslim\AppData\Roaming\npm\node_modules\npm\node_modules\graceful-fs\polyfills.js:210:7
+135 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:82:15)
+135 silly fetchPackageMetaData  error for understrap@^0.4.8 [Error: No compatible version found: understrap@^0.4.8
+135 silly fetchPackageMetaData Valid install targets:
+135 silly fetchPackageMetaData 0.4.7
+135 silly fetchPackageMetaData ]
+136 info retry fetch attempt 1 at 4:54:18 PM
+137 info attempt registry request try #1 at 4:54:18 PM
+138 http fetch GET https://registry.npmjs.org/font-awesome/-/font-awesome-4.6.3.tgz
+139 info retry fetch attempt 1 at 4:54:18 PM
+140 info attempt registry request try #1 at 4:54:18 PM
+141 http fetch GET https://registry.npmjs.org/owl.carousel/-/owl.carousel-2.1.4.tgz
+142 http 200 https://registry.npmjs.org/undescores-for-npm
+143 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+143 verbose headers   etag: '"AEAQPHP816B4FW1J5RFDKM1FZ"',
+143 verbose headers   'content-type': 'application/json',
+143 verbose headers   'content-encoding': 'gzip',
+143 verbose headers   'cache-control': 'max-age=300',
+143 verbose headers   'content-length': '2198',
+143 verbose headers   'accept-ranges': 'bytes',
+143 verbose headers   date: 'Mon, 10 Oct 2016 15:54:19 GMT',
+143 verbose headers   via: '1.1 varnish',
+143 verbose headers   age: '0',
+143 verbose headers   connection: 'keep-alive',
+143 verbose headers   'x-served-by': 'cache-lcy1123-LCY',
+143 verbose headers   'x-cache': 'MISS',
+143 verbose headers   'x-cache-hits': '0',
+143 verbose headers   'x-timer': 'S1476114858.716097,VS0,VE704',
+143 verbose headers   vary: 'Accept-Encoding' }
+144 silly get cb [ 200,
+144 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+144 silly get     etag: '"AEAQPHP816B4FW1J5RFDKM1FZ"',
+144 silly get     'content-type': 'application/json',
+144 silly get     'content-encoding': 'gzip',
+144 silly get     'cache-control': 'max-age=300',
+144 silly get     'content-length': '2198',
+144 silly get     'accept-ranges': 'bytes',
+144 silly get     date: 'Mon, 10 Oct 2016 15:54:19 GMT',
+144 silly get     via: '1.1 varnish',
+144 silly get     age: '0',
+144 silly get     connection: 'keep-alive',
+144 silly get     'x-served-by': 'cache-lcy1123-LCY',
+144 silly get     'x-cache': 'MISS',
+144 silly get     'x-cache-hits': '0',
+144 silly get     'x-timer': 'S1476114858.716097,VS0,VE704',
+144 silly get     vary: 'Accept-Encoding' } ]
+145 verbose get saving undescores-for-npm to C:\Users\Teslim\AppData\Roaming\npm-cache\registry.npmjs.org\undescores-for-npm\.cache.json
+146 verbose correctMkdir C:\Users\Teslim\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+147 http fetch 200 https://registry.npmjs.org/font-awesome/-/font-awesome-4.6.3.tgz
+148 silly resolveWithNewModule undescores-for-npm@1.0.0 checking installable status
+149 silly cache add args [ 'undescores-for-npm@^1.0.0', null ]
+150 verbose cache add spec undescores-for-npm@^1.0.0
+151 silly cache add parsed spec Result {
+151 silly cache add   raw: 'undescores-for-npm@^1.0.0',
+151 silly cache add   scope: null,
+151 silly cache add   name: 'undescores-for-npm',
+151 silly cache add   rawSpec: '^1.0.0',
+151 silly cache add   spec: '>=1.0.0 <2.0.0',
+151 silly cache add   type: 'range' }
+152 silly addNamed undescores-for-npm@>=1.0.0 <2.0.0
+153 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for undescores-for-npm
+154 silly addNameRange { name: 'undescores-for-npm',
+154 silly addNameRange   range: '>=1.0.0 <2.0.0',
+154 silly addNameRange   hasData: false }
+155 silly mapToRegistry name undescores-for-npm
+156 silly mapToRegistry using default registry
+157 silly mapToRegistry registry https://registry.npmjs.org/
+158 silly mapToRegistry data Result {
+158 silly mapToRegistry   raw: 'undescores-for-npm',
+158 silly mapToRegistry   scope: null,
+158 silly mapToRegistry   name: 'undescores-for-npm',
+158 silly mapToRegistry   rawSpec: '',
+158 silly mapToRegistry   spec: 'latest',
+158 silly mapToRegistry   type: 'tag' }
+159 silly mapToRegistry uri https://registry.npmjs.org/undescores-for-npm
+160 verbose addNameRange registry:https://registry.npmjs.org/undescores-for-npm not in flight; fetching
+161 verbose get https://registry.npmjs.org/undescores-for-npm not expired, no request
+162 silly addNameRange number 2 { name: 'undescores-for-npm',
+162 silly addNameRange   range: '>=1.0.0 <2.0.0',
+162 silly addNameRange   hasData: true }
+163 silly addNameRange versions [ 'undescores-for-npm', [ '1.0.0' ] ]
+164 silly addNamed undescores-for-npm@1.0.0
+165 verbose addNamed "1.0.0" is a plain semver version for undescores-for-npm
+166 silly mapToRegistry name undescores-for-npm
+167 silly mapToRegistry using default registry
+168 silly mapToRegistry registry https://registry.npmjs.org/
+169 silly mapToRegistry data Result {
+169 silly mapToRegistry   raw: 'undescores-for-npm',
+169 silly mapToRegistry   scope: null,
+169 silly mapToRegistry   name: 'undescores-for-npm',
+169 silly mapToRegistry   rawSpec: '',
+169 silly mapToRegistry   spec: 'latest',
+169 silly mapToRegistry   type: 'tag' }
+170 silly mapToRegistry uri https://registry.npmjs.org/undescores-for-npm
+171 verbose addRemoteTarball https://registry.npmjs.org/undescores-for-npm/-/undescores-for-npm-1.0.0.tgz not in flight; adding
+172 verbose addRemoteTarball [ 'https://registry.npmjs.org/undescores-for-npm/-/undescores-for-npm-1.0.0.tgz',
+172 verbose addRemoteTarball   '00027df22418e97aa7a942f741e0b14bdeb5a4ae' ]
+173 http fetch 200 https://registry.npmjs.org/owl.carousel/-/owl.carousel-2.1.4.tgz
+174 info retry fetch attempt 1 at 4:54:19 PM
+175 info attempt registry request try #1 at 4:54:19 PM
+176 http fetch GET https://registry.npmjs.org/undescores-for-npm/-/undescores-for-npm-1.0.0.tgz
+177 http fetch 200 https://registry.npmjs.org/undescores-for-npm/-/undescores-for-npm-1.0.0.tgz
+178 silly fetchAndShaCheck shasum 00027df22418e97aa7a942f741e0b14bdeb5a4ae
+179 verbose addTmpTarball C:\Users\Teslim\AppData\Local\Temp\npm-11756-dd768eaf\registry.npmjs.org\undescores-for-npm\-\undescores-for-npm-1.0.0.tgz not in flight; adding
+180 verbose addTmpTarball already have metadata; skipping unpack for undescores-for-npm@1.0.0
+181 verbose correctMkdir C:\Users\Teslim\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+182 silly cache afterAdd undescores-for-npm@1.0.0
+183 verbose afterAdd C:\Users\Teslim\AppData\Roaming\npm-cache\undescores-for-npm\1.0.0\package\package.json not in flight; writing
+184 verbose correctMkdir C:\Users\Teslim\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+185 verbose afterAdd C:\Users\Teslim\AppData\Roaming\npm-cache\undescores-for-npm\1.0.0\package\package.json written
+186 silly fetchAndShaCheck shasum ff37bcb60eb354a397a23002f058e209c83a9717
+187 verbose addTmpTarball C:\Users\Teslim\AppData\Local\Temp\npm-11756-dd768eaf\registry.npmjs.org\owl.carousel\-\owl.carousel-2.1.4.tgz not in flight; adding
+188 verbose addTmpTarball already have metadata; skipping unpack for owl.carousel@2.1.4
+189 verbose correctMkdir C:\Users\Teslim\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+190 silly cache afterAdd owl.carousel@2.1.4
+191 verbose afterAdd C:\Users\Teslim\AppData\Roaming\npm-cache\owl.carousel\2.1.4\package\package.json not in flight; writing
+192 verbose correctMkdir C:\Users\Teslim\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+193 verbose afterAdd C:\Users\Teslim\AppData\Roaming\npm-cache\owl.carousel\2.1.4\package\package.json written
+194 http 200 https://registry.npmjs.org/bootstrap
+195 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+195 verbose headers   etag: '"8YEI0DK1G0EBOA4KN6OSZ9WD5"',
+195 verbose headers   'content-type': 'application/json',
+195 verbose headers   'content-encoding': 'gzip',
+195 verbose headers   'cache-control': 'max-age=300',
+195 verbose headers   'content-length': '10085',
+195 verbose headers   'accept-ranges': 'bytes',
+195 verbose headers   date: 'Mon, 10 Oct 2016 15:55:07 GMT',
+195 verbose headers   via: '1.1 varnish',
+195 verbose headers   age: '192',
+195 verbose headers   connection: 'keep-alive',
+195 verbose headers   'x-served-by': 'cache-lcy1126-LCY',
+195 verbose headers   'x-cache': 'HIT',
+195 verbose headers   'x-cache-hits': '1',
+195 verbose headers   'x-timer': 'S1476114907.038310,VS0,VE0',
+195 verbose headers   vary: 'Accept-Encoding' }
+196 silly get cb [ 200,
+196 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+196 silly get     etag: '"8YEI0DK1G0EBOA4KN6OSZ9WD5"',
+196 silly get     'content-type': 'application/json',
+196 silly get     'content-encoding': 'gzip',
+196 silly get     'cache-control': 'max-age=300',
+196 silly get     'content-length': '10085',
+196 silly get     'accept-ranges': 'bytes',
+196 silly get     date: 'Mon, 10 Oct 2016 15:55:07 GMT',
+196 silly get     via: '1.1 varnish',
+196 silly get     age: '192',
+196 silly get     connection: 'keep-alive',
+196 silly get     'x-served-by': 'cache-lcy1126-LCY',
+196 silly get     'x-cache': 'HIT',
+196 silly get     'x-cache-hits': '1',
+196 silly get     'x-timer': 'S1476114907.038310,VS0,VE0',
+196 silly get     vary: 'Accept-Encoding' } ]
+197 verbose get saving bootstrap to C:\Users\Teslim\AppData\Roaming\npm-cache\registry.npmjs.org\bootstrap\.cache.json
+198 verbose correctMkdir C:\Users\Teslim\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+199 silly resolveWithNewModule bootstrap@4.0.0-alpha.4 checking installable status
+200 silly cache add args [ 'bootstrap@^4.0.0-alpha.4', null ]
+201 verbose cache add spec bootstrap@^4.0.0-alpha.4
+202 silly cache add parsed spec Result {
+202 silly cache add   raw: 'bootstrap@^4.0.0-alpha.4',
+202 silly cache add   scope: null,
+202 silly cache add   name: 'bootstrap',
+202 silly cache add   rawSpec: '^4.0.0-alpha.4',
+202 silly cache add   spec: '>=4.0.0-alpha.4 <5.0.0',
+202 silly cache add   type: 'range' }
+203 silly addNamed bootstrap@>=4.0.0-alpha.4 <5.0.0
+204 verbose addNamed ">=4.0.0-alpha.4 <5.0.0" is a valid semver range for bootstrap
+205 silly addNameRange { name: 'bootstrap',
+205 silly addNameRange   range: '>=4.0.0-alpha.4 <5.0.0',
+205 silly addNameRange   hasData: false }
+206 silly mapToRegistry name bootstrap
+207 silly mapToRegistry using default registry
+208 silly mapToRegistry registry https://registry.npmjs.org/
+209 silly mapToRegistry data Result {
+209 silly mapToRegistry   raw: 'bootstrap',
+209 silly mapToRegistry   scope: null,
+209 silly mapToRegistry   name: 'bootstrap',
+209 silly mapToRegistry   rawSpec: '',
+209 silly mapToRegistry   spec: 'latest',
+209 silly mapToRegistry   type: 'tag' }
+210 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+211 verbose addNameRange registry:https://registry.npmjs.org/bootstrap not in flight; fetching
+212 verbose get https://registry.npmjs.org/bootstrap not expired, no request
+213 silly addNameRange number 2 { name: 'bootstrap',
+213 silly addNameRange   range: '>=4.0.0-alpha.4 <5.0.0',
+213 silly addNameRange   hasData: true }
+214 silly addNameRange versions [ 'bootstrap',
+214 silly addNameRange   [ '0.0.1',
+214 silly addNameRange     '0.0.2',
+214 silly addNameRange     '3.1.1',
+214 silly addNameRange     '3.2.0',
+214 silly addNameRange     '3.3.0',
+214 silly addNameRange     '3.3.1',
+214 silly addNameRange     '3.3.2',
+214 silly addNameRange     '3.3.4',
+214 silly addNameRange     '3.3.5',
+214 silly addNameRange     '3.3.6',
+214 silly addNameRange     '4.0.0-alpha.2',
+214 silly addNameRange     '3.3.7',
+214 silly addNameRange     '4.0.0-alpha.3',
+214 silly addNameRange     '4.0.0-alpha.4' ] ]
+215 silly addNamed bootstrap@4.0.0-alpha.4
+216 verbose addNamed "4.0.0-alpha.4" is a plain semver version for bootstrap
+217 silly mapToRegistry name bootstrap
+218 silly mapToRegistry using default registry
+219 silly mapToRegistry registry https://registry.npmjs.org/
+220 silly mapToRegistry data Result {
+220 silly mapToRegistry   raw: 'bootstrap',
+220 silly mapToRegistry   scope: null,
+220 silly mapToRegistry   name: 'bootstrap',
+220 silly mapToRegistry   rawSpec: '',
+220 silly mapToRegistry   spec: 'latest',
+220 silly mapToRegistry   type: 'tag' }
+221 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+222 verbose addRemoteTarball https://registry.npmjs.org/bootstrap/-/bootstrap-4.0.0-alpha.4.tgz not in flight; adding
+223 verbose addRemoteTarball [ 'https://registry.npmjs.org/bootstrap/-/bootstrap-4.0.0-alpha.4.tgz',
+223 verbose addRemoteTarball   '823cb353d6c50a38df98aa18ec4df56ef0355e7a' ]
+224 info retry fetch attempt 1 at 4:55:44 PM
+225 info attempt registry request try #1 at 4:55:44 PM
+226 http fetch GET https://registry.npmjs.org/bootstrap/-/bootstrap-4.0.0-alpha.4.tgz
+227 http fetch 200 https://registry.npmjs.org/bootstrap/-/bootstrap-4.0.0-alpha.4.tgz
+228 silly fetchAndShaCheck shasum 86933651540ee00874c664017f50f2172f6531a2
+229 verbose addTmpTarball C:\Users\Teslim\AppData\Local\Temp\npm-11756-dd768eaf\registry.npmjs.org\font-awesome\-\font-awesome-4.6.3.tgz not in flight; adding
+230 verbose addTmpTarball already have metadata; skipping unpack for font-awesome@4.6.3
+231 verbose correctMkdir C:\Users\Teslim\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+232 silly cache afterAdd font-awesome@4.6.3
+233 verbose afterAdd C:\Users\Teslim\AppData\Roaming\npm-cache\font-awesome\4.6.3\package\package.json not in flight; writing
+234 verbose correctMkdir C:\Users\Teslim\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+235 verbose afterAdd C:\Users\Teslim\AppData\Roaming\npm-cache\font-awesome\4.6.3\package\package.json written
+236 silly fetchAndShaCheck shasum 823cb353d6c50a38df98aa18ec4df56ef0355e7a
+237 verbose addTmpTarball C:\Users\Teslim\AppData\Local\Temp\npm-11756-dd768eaf\registry.npmjs.org\bootstrap\-\bootstrap-4.0.0-alpha.4.tgz not in flight; adding
+238 verbose addTmpTarball already have metadata; skipping unpack for bootstrap@4.0.0-alpha.4
+239 verbose correctMkdir C:\Users\Teslim\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+240 silly cache afterAdd bootstrap@4.0.0-alpha.4
+241 verbose afterAdd C:\Users\Teslim\AppData\Roaming\npm-cache\bootstrap\4.0.0-alpha.4\package\package.json not in flight; writing
+242 verbose correctMkdir C:\Users\Teslim\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+243 verbose afterAdd C:\Users\Teslim\AppData\Roaming\npm-cache\bootstrap\4.0.0-alpha.4\package\package.json written
+244 silly rollbackFailedOptional Starting
+245 silly rollbackFailedOptional Finishing
+246 silly runTopLevelLifecycles Starting
+247 silly runTopLevelLifecycles Finishing
+248 silly install printInstalled
+249 verbose stack Error: No compatible version found: understrap@^0.4.8
+249 verbose stack Valid install targets:
+249 verbose stack 0.4.7
+249 verbose stack
+249 verbose stack     at pickVersionFromRegistryDocument (C:\Users\Teslim\AppData\Roaming\npm\node_modules\npm\lib\fetch-package-metadata.js:170:16)
+249 verbose stack     at C:\Users\Teslim\AppData\Roaming\npm\node_modules\npm\node_modules\iferr\index.js:13:50
+249 verbose stack     at C:\Users\Teslim\AppData\Roaming\npm\node_modules\npm\lib\utils\pulse-till-done.js:19:8
+249 verbose stack     at saved (C:\Users\Teslim\AppData\Roaming\npm\node_modules\npm\lib\cache\caching-client.js:174:7)
+249 verbose stack     at C:\Users\Teslim\AppData\Roaming\npm\node_modules\npm\node_modules\graceful-fs\polyfills.js:210:7
+249 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+250 verbose cwd C:\Users\Teslim\Web\lounge\public\understrap\wp-content\themes\understrap-child
+251 error Windows_NT 10.0.10240
+252 error argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Users\\Teslim\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install"
+253 error node v5.6.0
+254 error npm  v3.9.6
+255 error No compatible version found: understrap@^0.4.8
+255 error Valid install targets:
+255 error 0.4.7
+256 error If you need help, you may report this error at:
+256 error     <https://github.com/npm/npm/issues>
+257 verbose exit [ 1, true ]
